@@ -57,3 +57,6 @@ str = input("\n Enter any string: ")
 print("\n The reverse of the string is :", reverse(str))
 
 
+
+txt = input("enter any text: ")
+print("after conversion",txt.swapcase())
