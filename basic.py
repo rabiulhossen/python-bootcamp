@@ -38,3 +38,22 @@ print(" The {1} {0} {3} {2}".format("brown", "quick", "jump", "fox"))
 name ="rabiul"
 stack ="MERN"
 print(f"my name is {name} and stack is {stack}")
+
+
+
+# reverse string
+
+def reverse (str):
+    new_str = ""
+    i = len(str)-1
+    while i>0:
+        new_str += str[i]
+        i -=1
+        return new_str
+    
+ 
+
+str = input("\n Enter any string: ")
+print("\n The reverse of the string is :", reverse(str))
+
+
