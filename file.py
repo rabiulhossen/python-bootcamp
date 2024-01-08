@@ -21,8 +21,17 @@ file = open("file3.txt", "w")
 
 #rename old filename
 import os
-os.rename("file2.txt", "changeName.txt")
-print("file renamed")
+# os.rename("file2.txt", "changeName.txt")
+# print("file renamed")
 
 #remove file
 os.remove("file3.txt")
+
+# try except block:
+
+try:
+    print(x)
+except:
+    print("print anything")
+finally:
+    print("print finally")
