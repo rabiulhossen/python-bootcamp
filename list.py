@@ -29,3 +29,13 @@ print(list2*3)
 
 num =[1,4,7,4,7834,673,73,32,2,8,99]
 print(num.sort()) #sort the list
+
+#tuples
+tuple =(2,3,4,5,6,)
+# tuples are immutable
+
+#set
+set1 ={2,4,56,87,43}
+set2 = {"a","g","gr","hfg"}
+
+print(4 in set1)

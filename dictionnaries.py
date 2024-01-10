@@ -1,3 +1,7 @@
+# dictionaries accessed by key. this makes them different from sequence type objects such as string,list tuple where items are accessed by position
+
+#key can be immutabl3e
+
 
 def invert_dictionary(original_dict):
     inverted_dict = {}
@@ -25,7 +29,7 @@ print(original_dict)
 
 # Get and display the inverted dictionary
 inverted_dict = invert_dictionary(original_dict)
-print("\nInverted Dictionary:")
+print("\n Inverted Dictionary:")
 print(inverted_dict)
 
 
