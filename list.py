@@ -39,3 +39,27 @@ set1 ={2,4,56,87,43}
 set2 = {"a","g","gr","hfg"}
 
 print(4 in set1)
+
+# Write a Python program to display the sum of n numbers using a list
+
+nums = []
+num =  int(input("how many long"))
+
+for i in range(num):
+  x = int(input("enter number "))
+  nums.append(x)
+  
+print("sum of numbers in the given list is :", sum(nums))
+
+
+# Write a Python program to implement linear search on a List of elements
+
+nums =[]
+num= int(input("how many long: "))
+
+for i in range(num):
+  if (i %2 ==0):
+    print( i, "is an odd number")
+    
+  else:
+    print(i, "is even number")
