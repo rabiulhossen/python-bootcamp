@@ -63,7 +63,7 @@ w = 3.25
 x = area(l, w)
 if ( x ):
   print (x)
-  
+  """
 try:
     fin = open('answer.txt')
     fin.write('Yes')
@@ -75,4 +75,63 @@ fin = open('words.txt')
 for line in fin:
     word = line.strip()
     print(word)
+
+"""
+print(not(True or False))
+
+def myf(s, n):
+
+    i =2
+
+    print(s * i * n)
+
+
+     
+print("bib".find('b', 1, 2))
+print ("%s %d %f" % (5, 5, 5))
+
+mylist = ["now", "four", "is", "score", "the", "and seven", "time", "years", "for"]
+a=0
+while a < 8:
+    print(mylist[a],)
+    a = a + 2
+
+def recurse(a):
+    if (a == 0):
+        print(a)
+    else:
+        recurse(a) 
+
+print("recurse is",recurse(0))
+
+
+
+n = 10
+while n != 1:
+    print (n,)
+    if n % 2 == 0: # n is even
+        n = n // 2
+    else: # n is odd
+        n = n * 3 + 1
+  
+my_list = [3, 2, 1]
+print(my_list)
+
+
+mylist = ["now", "four", "is", "score", "the", "and seven", "time", "years", "for"]
+a=0
+while a < 8:
+    print(mylist[a],)
+    a = a + 2
+
+
+def recurse(a):
+    if (a == 0):
+        print(a)
+    else:
+        recurse(a) 
+
+print(recurse(0))
+
+  
 
