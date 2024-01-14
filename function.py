@@ -37,3 +37,30 @@ def double(n):
 
 d = double(3)
 print(d(8))
+
+
+
+# nested function
+def cube (c):
+    x = c*c*c
+    def square (c):
+        x = c*c
+        return x
+    s = square(n)*c
+    print(c)
+    
+n = int(input("enter a vlaue: "))
+cube(n)
+
+
+def display(name, age, salary):
+    print("name", name)
+    print("age", age)
+    print("salary", salary)
+    
+    
+n= "aa"
+a = 20
+s = 123456
+
+display(n,a,s)
